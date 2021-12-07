@@ -52,7 +52,7 @@ def on_forever():
         pass
         forever(on_forever)
         if player_won == False and countdown == 0:
-            handle_rb_exchange == 0
+            handle_rb_exchange() == 0
 
 def player_won():
     player_won == False
@@ -61,10 +61,10 @@ def player_won():
         player_won == True
 
 def miles_remaining():
-    miles_remaining == 0
+    miles_remaining ==
 
 def amount_of_raux():
-    amount_of_raux ==
+    amount_of_raux == 0
 
 
 if player_won == False:
@@ -261,15 +261,7 @@ def month_changed():
     month_changed == 0
 
 
-def maybe_rollover_month():
-    global day, month
-if day > days_in_month(m):
-    day -= days_in_month
-    m += 1
-    month_changed == 1
-    import time
-    time.sleep(2)
-    month_changed == 0
+
 
     # Causes a certain number of days to elapse. The days pass one at a time, and each
     # day brings with it a random chance of sickness. The sickness rules are quirky: player
@@ -731,10 +723,7 @@ if countdown == 780:
     if countdown == 40:
         inflation_level += 50
 
-def handle_rb_exchange():
-    def on_forever3():
-        pass
-    forever(on_forever3)
+def handle_rb_exchange():     
     if inflation_level == 50:
         amount_of_raux -= 50
         amount_of_bragpoints += 1
